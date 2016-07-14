@@ -1,0 +1,13 @@
+canvas {
+            background-color: black;
+            font-family: "myFont";
+        }
+        #load {
+            font-family:"myFont";
+            visibility: hidden;
+            height: 0px;
+        }
+        @font-face {
+            font-family: "myFont";
+            src: url('PressStart2P.ttf');
+            }
