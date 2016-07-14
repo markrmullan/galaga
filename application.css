@@ -1,15 +1,44 @@
 canvas {
-  background-color: black;
+  /*background-color: black;*/
   font-family: "myFont";
 }
 
 #load {
   font-family:"myFont";
-  visibility: hidden;
+  /*visibility: hidden;*/
   height: 0px;
 }
 
 @font-face {
   font-family: "myFont";
   src: url('PressStart2P.ttf');
+}
+
+#game {
+  width: 1000px;
+  height: 600px;
+}
+
+#game-canvas {
+  position: relative;
+
+}
+
+#instructions-ul {
+  width: 1000px;
+  height: 150px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructions-li {
+  font-family: "myFont";
+  color: white;
+  font-size: 40px;
+  padding: 0;
 }

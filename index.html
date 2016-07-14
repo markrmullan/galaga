@@ -3,10 +3,18 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="application.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <title>GalagaLite</title>
   </head>
   <body>
-    <canvas id="game-canvas"></canvas>
+    <div id="game">
+      <canvas id="game-canvas"></canvas>
+      <ul id="instructions-ul">
+        <li class="instructions-li" id="instruction1"></li>
+        <li class="instructions-li" id="instruction2"></li>
+        <li class="instructions-li" id="instruction3"></li>
+      </ul>
+    </div>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
 
