@@ -3,6 +3,13 @@ canvas {
   font-family: "myFont";
 }
 
+#body {
+  background-color: #737373;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
 #load {
   font-family:"myFont";
   /*visibility: hidden;*/
@@ -17,10 +24,11 @@ canvas {
 #game {
   width: 1000px;
   height: 600px;
+  display: flex;
 }
 
 #game-canvas {
-  position: relative;
+  position: fixed;
 
 }
 
@@ -40,5 +48,31 @@ canvas {
   font-family: "myFont";
   color: white;
   font-size: 40px;
+  padding: 4px;
+}
+
+#game-over {
+  list-style-type: none;
+  position: relative;
+  text-align: center;
+  top: 200px;
+  left: 20%;
+  height: 40px;
   padding: 0;
+  margin: 0;
+  z-index: 5;
+}
+
+.game-over-text {
+  font-family: "myFont";
+  color: white;
+  font-size: 40px;
+}
+
+#restart {
+  position: absolute;
+  width: 800px;
+  font-size: 25px;
+  top: 75px;
+  left: -120px;
 }
